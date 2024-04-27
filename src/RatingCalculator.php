@@ -104,7 +104,7 @@ class RatingCalculator
             $C = $A + ((($A - $B) * $fA) / ($fB - $fA));
             $fC = $this->f($C, $delta, $phi, $v, $a, $this->tau);
             
-            if ($fC * $fB < 0) {
+            if ($fC * $fB <= 0) {
                 $A = $B;
                 $fA = $fB;
             } else {
