@@ -10,10 +10,16 @@ PHP implementation of the Glicko-2 rating algorithm. This is a PHP port of [gooc
 
 Using [Composer](http://getcomposer.org/), add the package to your `require` section.
 
+```
+composer require aiaeforks/glicko2
+```
+
+or
+
 ```json
 {
 	"require": {
-		"maartenstaa/glicko2": "dev-master"
+		"aiaeforks/glicko2": "dev-master"
 	}
 }
 ```

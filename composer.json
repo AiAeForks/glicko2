@@ -1,5 +1,5 @@
 {
-    "name": "maartenstaa/glicko2",
+    "name": "aiaeforks/glicko2",
     "description": "PHP implementation of the Glicko-2 rating algorithm",
     "keywords": [],
     "type": "library",
